@@ -1,0 +1,28 @@
+{
+  "name": "knb-comments-lister",
+  "authors": [
+    "orels1 <orel-s1@yandex.ru>"
+  ],
+  "description": "Comments lister interface for knb moderators",
+  "main": "app.js",
+  "keywords": [
+    "node",
+    "react",
+    "express",
+    "socket.io"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

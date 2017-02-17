@@ -1,0 +1,17 @@
+//
+   Created by antonorlov on 17/02/2017.
+doctype 
+html
+    head
+        title KNB Comments Lister
+        script(src="https://cdn.ravenjs.com/3.10.0/raven.min.js", crossorigin="anonymous")
+        script.
+            Raven.config('https://8e689ab0c36f4ebf99daa4817fea48be@sentry.io/139906').install()
+        link(rel="stylesheet", href=styles)
+    body
+        #app!= html
+        script(src="https://code.jquery.com/jquery-3.1.1.min.js",
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=",
+            crossorigin="anonymous")
+        script(src=vendor_bundle)
+        script(src=bundle)
